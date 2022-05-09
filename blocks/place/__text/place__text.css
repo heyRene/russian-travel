@@ -1,0 +1,10 @@
+.place__text {
+    margin:0;
+    padding: 0 0 26px;
+}
+
+.place__text:last-child {
+    padding-bottom: 0;
+}
+
+
