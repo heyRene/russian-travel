@@ -1,7 +1,7 @@
 .places {
-  max-width: 1280px;
-  width:calc(100% - 148px*2);
-  width: 100%; 
+  /* max-width: 1184px; */
+  width: calc(100% - 148px * 2);
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -12,14 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .places {
-  width: calc(100vw - 24px * 2);
-   
+    width: calc(100vw - 24px * 2);
   }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
   .places {
-    width:100%;
+    width: 100%;
     padding-bottom: 66px;
   }
 }
-
