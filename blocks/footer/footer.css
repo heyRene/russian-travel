@@ -1,17 +1,24 @@
 .footer {
   width: 100%;
   padding: 0 48px 24px;
+  max-width: 1184px;
   width: calc(100% - 48px * 2);
-
+  margin: 0 auto;
 }
-@media screen and (max-width:1024px) {
-    .footer {
-        max-width:928px;
-    }
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
 }
 @media screen and (max-width: 768px) {
   .footer {
     padding: 0 24px 24px;
     width: calc(100% - 24px * 2);
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 0 0 24px 16px;
+    max-width: 186px;
   }
 }

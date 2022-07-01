@@ -28,7 +28,6 @@
   transition: all 0.5s;
 }
 .cover__background:hover:before {
-  background-color: rgba(42, 44, 47, 1);
   opacity: 0.8;
 }
 

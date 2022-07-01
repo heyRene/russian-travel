@@ -4,7 +4,6 @@
   line-height: 36px;
   text-align: center;
   padding: 0;
-
   margin: 32px auto 64px;
   max-width: 640px;
 }
@@ -13,14 +12,12 @@
   .lead__subtitle {
     margin: 32px auto 56px;
     font-size: 16px;
-line-height: 20px;
-max-width: 288px;
+    line-height: 20px;
+    max-width: 288px;
   }
 }
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    font-size: 16px;
-    line-height: 20px;
-    margin: 16px 0 40px;
+    margin: 16px auto 40px;
   }
 }
