@@ -10,4 +10,4 @@
 * медиазапросы
 
 ## Ссылка на проект
-heyrene.github.io/russian-travel/
+https://heyrene.github.io/russian-travel/
