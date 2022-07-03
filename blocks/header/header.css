@@ -35,6 +35,6 @@
   .header {
     padding: 16px 16px 48px;
     max-width: 288px;
-    width: 100%;
+    /* width: 100%; */
   }
 }

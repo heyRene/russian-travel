@@ -1,25 +1,24 @@
 .places {
-  /* max-width: 984px; */
+  max-width: 984px;
   width: calc(100% - 148px * 2);
-  width: 100%;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1060px) {
   .places {
-    width: calc(100vw - 48px * 2);
     max-width: 928px;
+    width: calc(100% - 48px * 2);
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    /* width: calc(100vw - 24px * 2); */
-    max-width: 720px;
+    width: calc(100% - 24px * 2);
   }
 }
 @media screen and (max-width: 320px) {
   .places {
     width: 100%;
+    grid-template-columns: fit-content(288px);
   }
 }
